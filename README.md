@@ -3,12 +3,14 @@ Everything I figured out about messing with this device.
 
 All the info regarding the A7CC is scattered troughout many forums and posts. I want to spare you the time by writing down the infos I found to be working.
 
-### As always: MESSING WITH YOUR PHONE CAN BREAK IT, so be careful. I'm not responsible for anything. :-)
+> [!CAUTION]
+> ### As always: MESSING WITH YOUR PHONE CAN BREAK IT, so be careful. I'm not responsible for anything. :-)
 
 
 
 # BACKUP
-Entering autodload aparrently WIPES your splloader! By entering it you will be stuck in emergency download mode (Ask me how I found out :-D). Your phone will NOT boot normally, even with hardware key combos!!
+> [!WARNING]
+> Entering autodload aparrently WIPES your splloader! By entering it you will be stuck in emergency download mode (Ask me how I found out :-D). Your phone will NOT boot normally, even with hardware key combos!!
 ```
 adb reboot autodload
 ```
@@ -31,12 +33,12 @@ https://github.com/4bitFox/CVE-2022-38694_unlock_bootloader/releases
 ```
 
 ## Running spd_dump:
-
-Depending on your distro you need to run:
-```
-sudo setenforce 0
-```
-Depending how your groups and permissions are set up you need to add your user to the correct group. I was just lazy and ran spd_dump with sudo....
+> [!TIP]
+> Depending on your distro you need to run: (lasts until reboot)
+> ```
+> sudo setenforce 0
+> ```
+> Depending how your groups and permissions are set up you need to add your user to the correct group. I was just lazy and ran spd_dump with sudo....
 
 
 ## spd_dump Commands:
