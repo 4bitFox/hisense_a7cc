@@ -20,7 +20,7 @@ I did this in Linux so I won't cover how to set up windows drivers. This part of
 
 spd-dump linux build: 
 ```
-https://github.com/4bitFox/CVE-2022-38694_unlock_bootloader/release
+https://github.com/4bitFox/CVE-2022-38694_unlock_bootloader/releases
 ```
 
 A7CC Files: 
