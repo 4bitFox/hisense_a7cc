@@ -8,7 +8,7 @@ All the info regarding the A7CC is scattered troughout many forums and posts. I 
 
 
 
-# BACKUP
+# BACKUP Partitions
 > [!WARNING]
 > Entering autodload aparrently [WIPES your splloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader/issues/6#issuecomment-1627545223)! By entering it you will be stuck in emergency download mode (Ask me how I found out :-D). Your phone will NOT boot normally, even with hardware key combos!!
 ```
