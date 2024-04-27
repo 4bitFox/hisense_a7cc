@@ -195,7 +195,7 @@ The lineage-21-td build was different in that it booted into recovery instead.
 
 
 ## E-Ink controls
-#### Huge props to @denzilferreira sensei!!
+#### Huge props to @denzilferreira sensei!! Check out this [E-Ink control](https://github.com/denzilferreira/vendor_hisense/releases/tag/v1.5.1) app!
 ```
 /sys/devices/platform/soc/soc:ap-ahb/20400000.dsi/20400000.dsi.0/display/panel0/epd_white_threshold
 /sys/devices/platform/soc/soc:ap-ahb/20400000.dsi/20400000.dsi.0/display/panel0/epd_commit_bitmap
