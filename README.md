@@ -137,7 +137,7 @@ Here we flash splloader partition so the phone can boot again. Replace u-boot-sp
 
 # Restore to stock rom
 ```
-download is dead :-/
+https://fans.hisense.com/forum.php?mod=viewthread&tid=206299
 ```
 Put stock rom files on Sd Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
 Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
