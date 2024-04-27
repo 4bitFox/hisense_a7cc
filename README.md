@@ -192,7 +192,8 @@ The lineage-21-light and lineage-21-td-vndklite images resulted in the phone reb
 The lineage-21-td build was different in that it booted into recovery instead.
 
 
-## E-Ink controls (huge props to @denzilferreira sensei)
+## E-Ink controls
+#### Huge props to @denzilferreira sensei!!
 ```
 /sys/devices/platform/soc/soc:ap-ahb/20400000.dsi/20400000.dsi.0/display/panel0/epd_white_threshold
 /sys/devices/platform/soc/soc:ap-ahb/20400000.dsi/20400000.dsi.0/display/panel0/epd_commit_bitmap
