@@ -3,8 +3,47 @@ Everything I figured out about messing with this device.
 
 All the info regarding the A7CC is scattered troughout many forums and posts. I want to spare you the time by writing down the infos I found to be working.
 
+This stuff is not listed in order. Just search for what you need here :-)
+
 > [!CAUTION]
 > ### As always: MESSING WITH YOUR PHONE CAN BREAK IT, so be careful. I'm not responsible for anything. :-)
+
+
+
+
+# Recovery + Wipe user data
+So far ```fastboot -w``` hasn't seemed to work so I delete userdata trough recovery:
+
+Press E-Ink Button + VolDown + Power Button until the phone reboots.
+![recovery1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/recovery1.png)
+
+
+
+
+# Restore to stock rom
+```
+https://fans.hisense.com/forum.php?mod=viewthread&tid=206299
+```
+Put stock rom files on Sd Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
+
+Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
+
+![restore-stock1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/restore-stock1.jpg)
+
+Fun fact: I accidentally first used a A7 rom and it worked. I just had no colors obviously xD. Whooops
+
+
+
+
+# Fastboot
+The phone supports fastboot commands when booted into botloader. I wasn't able to flash anything in the bootloader tough.
+
+Using ```adb reboot bootloader``` or if you are in the bootloader ```fastboot reboot bootloader``` you can get into proper fastboot.
+
+```fastboot fetch``` desn't work so you can't back up partitions this way... :-/
+![fastboot1.jpg](https://github.com/4bitFox/hisense_a7cc/blob/main/img/fastboot1.jpg)
+
+
 
 
 
@@ -137,35 +176,6 @@ Here we flash splloader partition so the phone can boot again. Replace u-boot-sp
 ```
 
 
-# Restore to stock rom
-```
-https://fans.hisense.com/forum.php?mod=viewthread&tid=206299
-```
-Put stock rom files on Sd Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
-
-Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
-
-![restore-stock1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/restore-stock1.jpg)
-
-Fun fact: I accidentally first used a A7 rom and it worked. I just had no colors obviously xD. Whooops
-
-
-
-# Recovery + Wipe user data
-So far ```fastboot -w``` hasn't seemed to work so I delete userdata trough recovery:
-
-Press E-Ink Button + VolDown + Power Button until the phone reboots.
-![recovery1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/recovery1.png)
-
-
-
-# Fastboot
-The phone supports fastboot commands when booted into botloader. I wasn't able to flash anything in the bootloader tough.
-
-Using ```adb reboot bootloader``` or if you are in the bootloader ```fastboot reboot bootloader``` you can get into proper fastboot.
-
-```fastboot fetch``` desn't work so you can't back up partitions this way... :-/
-![fastboot1.jpg](https://github.com/4bitFox/hisense_a7cc/blob/main/img/fastboot1.jpg)
 
 
 # GSI
