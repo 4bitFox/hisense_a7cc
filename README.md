@@ -54,6 +54,8 @@ Using ```adb reboot bootloader``` or if you are in the bootloader ```fastboot re
 # BACKUP Partitions
 > [!WARNING]
 > Entering autodload aparrently [WIPES your splloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader/issues/6#issuecomment-1627545223)! By entering it you will be stuck in emergency download mode (Ask me how I found out :-D). Your phone will NOT boot normally, even with hardware key combos!! It was a huge pain to get this to work. I didn't manage to make the program recognize my phone in Windows, even after installing all the driver shenanigans. Without the program flashing back splloader you phone is unuseable so think about it twice!!!!
+
+Your screen will freeze and be unresponsive as soon as you enter this command until you leave autodload again, so get your sussy stuff off the screen before you run this ;-)
 ```
 adb reboot autodload
 ```
