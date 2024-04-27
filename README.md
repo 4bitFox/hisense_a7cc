@@ -31,6 +31,7 @@ https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader/releases
 In case the files are not around anymore in the above link:
 https://github.com/4bitFox/CVE-2022-38694_unlock_bootloader/releases
 ```
+![spd-dump-files1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/spd-dump-files1.png)
 
 ## Running spd_dump:
 > [!TIP]
@@ -127,6 +128,7 @@ This example backs up the boot partition.
 ```
 ./spd_dump exec_addr 0x3f28 fdl fdl1-dl.bin 0x5500 fdl uboot-mod.bin 0x9efffe00 exec read_part boot 0 35M boot.img reset
 ```
+![spd-dump1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/spd-dump1.png)
 
 ### Exit autodload:
 Here we flash splloader partition so the phone can boot again. Replace u-boot-spl-16k-sign.bin with your splloader in case you have a backup of it before you entered autodload which wiped it.
