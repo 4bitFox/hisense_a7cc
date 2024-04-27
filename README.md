@@ -143,6 +143,8 @@ Put stock rom files on Sd Card formatted as FAT32. There should be a folder name
 
 Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
 
+![restore-stock1.img](https://github.com/4bitFox/hisense_a7cc/blob/main/img/restore-stock1.jpg)
+
 Fun fact: I accidentally first used a A7 rom and it worked. I just had no colors obviously xD. Whooops
 
 
