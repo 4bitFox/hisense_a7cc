@@ -10,6 +10,10 @@ This stuff is not listed in order. Just search for what you need here :-)
 
 
 
+# Developer Settings
+Differently to other phones you have to spam-click Kernel version: Settings -> About Phone -> spam Kernel version
+
+
 
 # Recovery + Wipe user data
 So far ```fastboot -w``` hasn't seemed to work so I delete userdata trough recovery:
