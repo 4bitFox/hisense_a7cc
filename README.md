@@ -158,6 +158,16 @@ Press E-Ink Button + VolDown + Power Button until the phone reboots.
 ![recovery1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/recovery1.png)
 
 
+
+# Fastboot
+The phone supports fastboot commands when booted into botloader. I wasn't able to flash anything in the bootloader tough.
+
+Using ```adb reboot bootloader``` or if you are in the bootloader ```fastboot reboot bootloader``` you can get into proper fastboot.
+
+```fastboot fetch``` desn't work so you can't back up partitions this way... :-/
+![fastboot1.jpg](https://github.com/4bitFox/hisense_a7cc/blob/main/img/fastboot1.jpg)
+
+
 # GSI
 WIP together with @denzilferreira Huge thanks to him :-)
 
