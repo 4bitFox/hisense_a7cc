@@ -140,8 +140,20 @@ Here we flash splloader partition so the phone can boot again. Replace u-boot-sp
 https://fans.hisense.com/forum.php?mod=viewthread&tid=206299
 ```
 Put stock rom files on Sd Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
+
 Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
+
+Fun fact: I accidentally first used a A7 rom and it worked. I just had no colors obviously xD. Whooops
 
 
 # GSI
 WIP together with @denzilferreira Huge thanks to him :-)
+
+So far I have messed around with the LineageOS GSIs from [Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/). Sadly none of the ones I tried seem to work.
+
+The lineage-21-light and lineage-21-td-vndklite images resulted in the phone rebooting into its bootloader.
+
+The lineage-21-td build was different in that it booted into recovery instead.
+
+
+
