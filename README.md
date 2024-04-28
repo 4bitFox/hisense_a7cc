@@ -95,9 +95,11 @@ A7CC Files:
 Put the executeable and the other files together in the same folder.
 ```
 https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader/releases
+https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader/tree/info/soc/ud710
 
 In case the files are not around anymore in the above link:
 https://github.com/4bitFox/CVE-2022-38694_unlock_bootloader/releases
+https://github.com/4bitFox/CVE-2022-38694_unlock_bootloader/tree/info/soc/ud710
 ```
 ![spd-dump-files1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/spd-dump-files1.png)
 
