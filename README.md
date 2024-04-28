@@ -27,7 +27,20 @@ Press E-Ink Button + VolDown + Power Button until the phone reboots.
 # Restore to stock rom
 ```
 https://fans.hisense.com/forum.php?mod=viewthread&tid=206299
+| | | | | | | | 
+V V V V V V V V 
+https://pan.baidu.com/s/1vqnu6SUCY6hBpmEdFAx4Vw?#list/path=%2F
+code: iops
 ```
+pan.baidu.com asks for chinese phone number only... :-/
+
+If you don't have a chinese BaiDu account, register here: https://passport.baidu.com/v2/?reg&overseas=1
+
+You can then log in on the same page using "已有账号？ 登录" in case it redirects you somewhere else :-)
+
+After that you can open the link and you are logged in. You need the BaiDu app to download.
+
+
 Put stock rom files on Sd Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
 
 Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
