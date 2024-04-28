@@ -5,6 +5,7 @@ All the info regarding the A7CC is scattered troughout many forums and posts. I 
 
 > [!CAUTION]
 > ### As always: MESSING WITH YOUR PHONE CAN BREAK IT, so be careful. I'm not responsible for anything. :-)
+> ### I bought my phone with bootloader already unlocked. Some stuff here requires the bootloader to be unlocked!! As I didn't unlock myself, I will not cover this here for now.
 
 This stuff is not listed in order. Just search for what you need here :-)
 
