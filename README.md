@@ -3,11 +3,19 @@ Everything I figured out about messing with this device.
 
 All the info regarding the A7CC is scattered troughout many forums and posts. I want to spare you the time by writing down the infos I found to be working.
 
-This stuff is not listed in order. Just search for what you need here :-)
-
 > [!CAUTION]
 > ### As always: MESSING WITH YOUR PHONE CAN BREAK IT, so be careful. I'm not responsible for anything. :-)
 
+This stuff is not listed in order. Just search for what you need here :-)
+
+- [Developer Settings](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#developer-settings)
+- [Recovery + Wipe user data](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#recovery--wipe-user-data)
+- [Restore to stock rom](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#restore-to-stock-rom)
+- [Fastboot](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#fastboot)
+- [BACKUP Partitions](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#backup-partitions)
+- [GSI](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#gsi)
+
+---
 
 
 # Developer Settings
