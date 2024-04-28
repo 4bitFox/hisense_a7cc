@@ -57,7 +57,7 @@ The phone supports fastboot commands when booted into botloader. I wasn't able t
 
 Using ```adb reboot bootloader``` or if you are in the bootloader ```fastboot reboot bootloader``` you can get into proper fastboot.
 
-```fastboot fetch``` desn't work so you can't [back up partitions](https://github.com/4bitFox/hisense_a7cc#backup-partitions) this way... :-/
+```fastboot fetch``` desn't work so you can't [back up partitions](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#backup-partitions) this way... :-/
 
 ```fastboot boot``` doesn't work either D-:
 ![fastboot1.jpg](https://github.com/4bitFox/hisense_a7cc/blob/main/img/fastboot1.jpg)
