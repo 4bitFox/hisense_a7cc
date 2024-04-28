@@ -63,7 +63,7 @@ Fun fact: I accidentally first used a A7 rom and it worked. I just had no colors
 # Fastboot
 The phone supports fastboot commands when booted into botloader. I wasn't able to flash anything in the bootloader tough.
 
-Using ```adb reboot bootloader``` or if you are in the bootloader ```fastboot reboot bootloader``` you can get into proper fastboot.
+Using ```adb reboot bootloader``` or if you are in the bootloader ```fastboot reboot fastboot``` you can get into proper fastboot.
 
 ```fastboot fetch``` desn't work so you can't [back up partitions](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#backup-partitions) this way... :-/
 
