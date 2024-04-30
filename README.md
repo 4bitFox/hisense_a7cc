@@ -224,7 +224,7 @@ So far I have messed around with the LineageOS GSIs from [Andy Yan](https://sour
 
 The lineage-21-light and lineage-21-td-vndklite images resulted in the phone rebooting into its bootloader.
 
-The lineage-21-td build was different in that it booted into recovery instead.
+The lineage-21-td build and aosp-14-td were different in that they booted into recovery instead.
 
 
 ## E-Ink controls
