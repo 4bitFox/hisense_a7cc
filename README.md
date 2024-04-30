@@ -35,7 +35,7 @@ Press E-Ink Button + VolDown + Power Button until the phone reboots.
 
 # Restore to stock rom
 > [!WARNING]
-> this will wipe your userdata!
+> This will wipe your userdata!
 
 Download original rom from pan.baidu.com:
 
