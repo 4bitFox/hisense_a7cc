@@ -9,7 +9,7 @@ All the info regarding the A7CC is scattered troughout many forums and posts. I 
 
 This stuff is not listed in order. Just search for what you need here :-)
 
-- [Developer Settings](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#developer-settings)
+- [Developer Settings](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#developer-options)
 - [Recovery + Wipe user data](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#recovery--wipe-user-data)
 - [Restore to stock rom](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#restore-to-stock-rom)
 - [Fastboot](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#fastboot)
@@ -19,8 +19,10 @@ This stuff is not listed in order. Just search for what you need here :-)
 ---
 
 
-# Developer Settings
+# Developer options
 Differently to other phones you have to spam-click Kernel version: Settings -> About Phone -> spam Kernel version
+
+Developer options will then appear in Settings -> System & Updates -> Developer options
 
 
 
