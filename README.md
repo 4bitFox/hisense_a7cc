@@ -50,7 +50,7 @@ You can then log in on the same page using "已有账号？ 登录" in case it r
 After that you can open the pan.baidu.com link and you are logged in. You need the BaiDu app to download.
 
 
-Put stock rom files on Sd Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
+Put stock rom files on SD Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
 
 Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
 
