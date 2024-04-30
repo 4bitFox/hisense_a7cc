@@ -34,6 +34,7 @@ Press E-Ink Button + VolDown + Power Button until the phone reboots.
 
 
 # Restore to stock rom
+Download original rom from pan.baidu.com:
 ```
 https://fans.hisense.com/forum.php?mod=viewthread&tid=206299
 | | | | | | | | 
