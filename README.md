@@ -47,7 +47,7 @@ If you don't have a chinese BaiDu account, register here: https://passport.baidu
 
 You can then log in on the same page using "已有账号？ 登录" in case it redirects you somewhere else :-)
 
-After that you can open the cloud link and you are logged in. You need the BaiDu app to download.
+After that you can open the pan.baidu.com link and you are logged in. You need the BaiDu app to download.
 
 
 Put stock rom files on Sd Card formatted as FAT32. There should be a folder named HNR320T_TF at the root of the SD Card which then contains the bin files.
