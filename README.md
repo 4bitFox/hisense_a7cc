@@ -48,7 +48,7 @@ Download original rom from pan.baidu.com:
 > If you don't have a chinese BaiDu account, register here: https://passport.baidu.com/v2/?reg&overseas=1
 > You can then log in on the same page using "已有账号？ 登录" in case it redirects you somewhere else :-)
 > 
-> After that you can open the pan.baidu.com link and you are logged in. You need the BaiDu app to download.
+> After that you can open the pan.baidu.com link and you are logged in. You need the app to download.
 
 ```
 https://fans.hisense.com/forum.php?mod=viewthread&tid=206299
@@ -63,8 +63,6 @@ Put stock rom files on SD Card formatted as FAT32. There should be a folder name
 Put the SD Card in your phone and press E-Ink Button + VolUp + Power Button. It should then flash the screen after a few seconds. Release the buttons. It should now install the stock rom.
 
 ![restore-stock1.png](https://github.com/4bitFox/hisense_a7cc/blob/main/img/restore-stock1.jpg)
-
-Fun fact: I accidentally first used a A7 rom and it worked. I just had no colors obviously xD. Whooops
 
 
 
