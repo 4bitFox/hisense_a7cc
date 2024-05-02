@@ -216,6 +216,59 @@ Here we flash splloader partition so the phone can boot again. Replace u-boot-sp
 
 
 
+# Patch boot.img with Magisk
+Use "Backup" section to extract boot.img
+> [!WARNING]
+> Always keep a copy of your original boot image in case something goes wrong!!!
+
+Put the extracted boot.img into phone storage. Patch with Magisk app and copy patched img back to the PC.
+
+Get avbtool and key file (put them in same folder):
+```
+https://android.googlesource.com/platform/external/avb/+/refs/heads/main/avbtool.py
+https://github.com/unisoc-android/unisoc-android.github.io/blob/master/subut/assets/rsa4096_vbmeta.pem
+```
+
+We can now look at our boot image info using:
+
+```
+python3 avbtool.py info_image --image MAGISK_PATCHED_FILENAME.img
+```
+Output will look like this:
+```
+Footer version:           1.0
+Image size:               36700160 bytes
+Original image size:      19582976 bytes
+VBMeta offset:            19582976
+VBMeta size:              2112 bytes
+--
+Minimum libavb version:   1.0
+Header Block:             256 bytes
+Authentication Block:     576 bytes
+Auxiliary Block:          1280 bytes
+Public key (sha1):        2597c218aae470a130f61162feaae70afd97f011
+Algorithm:                SHA256_RSA4096
+Rollback Index:           0
+Flags:                    0
+Rollback Index Location:  0
+Release String:           'avbtool 1.1.0'
+Descriptors:
+    Hash descriptor:
+      Image Size:            19773440 bytes
+      Hash Algorithm:        sha256
+      Partition Name:        boot
+      Salt:                  5f55215fd2302d021f850b55912ed48d176784678692dc012e054b1ecd0be025
+      Digest:                881f81e8fab4830fe1fcc7b54e1e4e51a13d09f70d006f918568fb1361050583
+      Flags:                 0
+```
+Using this info we can now enter the command with correct parameters to sign our image:
+
+```
+python3 avbtool.py add_hash_footer --image MAGISK_PATCHED_FILENAME.img --partition_name boot --partition_size 36700160 --key rsa4096_vbmeta.pem --algorithm SHA256_RSA4096 --salt 5F55215FD2302D021F850B55912ED48D176784678692DC012E054B1ECD0BE025
+```
+You can now flash the signed image using fastboot.
+
+
 
 # GSI
 WIP together with @denzilferreira Huge thanks to him :-)
