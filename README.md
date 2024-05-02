@@ -265,7 +265,7 @@ Descriptors:
 Using this info we can now enter the command with correct parameters to sign our image:
 
 ```
-python3 avbtool.py add_hash_footer --image MAGISK_PATCHED_FILENAME.img --partition_name boot --partition_size 36700160 --key rsa4096_vbmeta.pem --algorithm SHA256_RSA4096 --salt 5F55215FD2302D021F850B55912ED48D176784678692DC012E054B1ECD0BE025
+python3 avbtool.py add_hash_footer --image MAGISK_PATCHED_FILENAME.img --partition_name boot --partition_size 36700160 --key rsa4096_vbmeta.pem --algorithm SHA256_RSA4096 --salt 5f55215fd2302d021f850b55912ed48d176784678692dc012e054b1ecd0be025
 ```
 You can now flash the signed image using fastboot.
 
