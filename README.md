@@ -14,6 +14,7 @@ This stuff is not listed in order. Just search for what you need here :-)
 - [Restore to stock rom](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#restore-to-stock-rom)
 - [Fastboot](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#fastboot)
 - [BACKUP Partitions](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#backup-partitions)
+- [Patch boot.img with Magisk](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#patch-bootimg-with-magisk)
 - [GSI](https://github.com/4bitFox/hisense_a7cc/blob/main/README.md#gsi)
 
 ---
