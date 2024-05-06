@@ -77,7 +77,7 @@ adb shell pm disable-user --user 0 com.android.cts.ctsshim
 adb shell pm disable-user --user 0 com.android.deskclock
 adb shell pm disable-user --user 0 com.android.dialer
 adb shell pm disable-user --user 0 com.android.exchange
-adb shell pm disable-user --user 0 com.android.gallery3d
+adb shell pm disable-user --user 0 com.android.gallery3d # Enable when you want to change lockscreen wallpaper
 adb shell pm disable-user --user 0 com.android.mms
 adb shell pm disable-user --user 0 com.android.musicfx
 adb shell pm disable-user --user 0 com.android.printservice.recommendation
@@ -147,6 +147,7 @@ adb shell pm disable-user --user 0 com.android.providers.mms
 adb shell pm disable-user --user 0 com.android.wallpaper.livepicker
 adb shell pm disable-user --user 0 com.hmct.ota.appinstall
 adb shell pm disable-user --user 0 com.hmct.einklauncher
+adb shell pm disable-user --user 0 com.android.einklauncher.plugin.readtimeplugin
 
 
 echo rebloat.....
