@@ -1,1 +1,23 @@
-todo
+## Download:
+```
+https://f-droid.org/en/packages/org.fossify.phone/
+https://f-droid.org/en/packages/org.fossify.clock/
+https://f-droid.org/en/packages/org.fossify.filemanager/
+https://f-droid.org/en/packages/org.fossify.calendar/
+https://f-droid.org/en/packages/org.fossify.gallery/
+https://f-droid.org/en/packages/org.fossify.messages/
+https://f-droid.org/en/packages/org.fossify.notes/
+https://f-droid.org/en/packages/org.fossify.voicerecorder/
+https://f-droid.org/en/packages/org.fossify.contacts/
+https://f-droid.org/en/packages/at.tomtasche.reader/
+https://f-droid.org/en/packages/ch.blinkenlights.android.vanilla/
+https://f-droid.org/en/packages/com.aurora.store/
+https://f-droid.org/en/packages/com.duckduckgo.mobile.android/
+https://f-droid.org/en/packages/eu.faircode.netguard/
+https://github.com/M66B/FairEmail/releases
+https://f-droid.org/
+https://f-droid.org/en/packages/net.sourceforge.opencamera/
+https://f-droid.org/en/packages/org.breezyweather/
+https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/
+https://xdaforums.com/t/app-port-lineageos-15-1-trebuchet-laucher-for-any-rom-ver-8-1-0-22.3667436/
+```
