@@ -143,11 +143,11 @@ adb shell pm disable-user --user 0 com.android.einklauncher.plugin.flipcalendar
 adb shell pm disable-user --user 0 com.hmct.clockeinkwidget
 adb shell pm disable-user --user 0 com.android.einklauncher.plugin.memo
 adb shell pm disable-user --user 0 com.android.einklauncher.plugin.readlaterplugin
-adb shell pm disable-user --user 0 com.android.providers.mms
 adb shell pm disable-user --user 0 com.android.wallpaper.livepicker
 adb shell pm disable-user --user 0 com.hmct.ota.appinstall
 adb shell pm disable-user --user 0 com.hmct.einklauncher
 adb shell pm disable-user --user 0 com.android.einklauncher.plugin.readtimeplugin
+adb shell pm disable-user --user 0 com.hmct.floatwindow
 
 
 echo rebloat.....
@@ -171,6 +171,12 @@ adb install rebloat/org.fossify.phone_*.apk
 adb install rebloat/org.fossify.voicerecorder_*.apk
 adb install rebloat/org.mozilla.fennec_fdroid_*.apk
 adb install rebloat/Trebuchet*.apk
+
+
+echo setting dns...
+#adb shell settings put global private_dns_mode off
+adb shell settings put global private_dns_mode hostname
+adb shell settings put global private_dns_specifier 1dot1dot1dot1.cloudflare-dns.com
 
 
 exit
