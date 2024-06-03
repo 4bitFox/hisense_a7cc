@@ -270,13 +270,14 @@ You can now flash the signed image using fastboot.
 
 
 # GSI
-WIP together with @denzilferreira Huge thanks to him :-)
+W̶I̶P̶ ̶t̶o̶g̶e̶t̶h̶e̶r̶ ̶w̶i̶t̶h̶ ̶@̶d̶e̶n̶z̶i̶l̶f̶e̶r̶r̶e̶i̶r̶a̶ ̶H̶u̶g̶e̶ ̶t̶h̶a̶n̶k̶s̶ ̶t̶o̶ ̶h̶i̶m̶ ̶:̶-̶)̶ (I gave up for now... I assume building a full rom is the better bet as nothing seems to work but i don't know tbh)
 
 So far I have messed around with the LineageOS GSIs from [Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/). Sadly none of the ones I tried seem to work.
 
 The lineage-21-light and lineage-21-td-vndklite images resulted in the phone rebooting into its bootloader.
 
 The lineage-21-td build and aosp-14-td were different in that they booted into recovery instead.
+
 
 
 ## E-Ink controls
