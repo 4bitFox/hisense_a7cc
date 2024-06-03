@@ -5,7 +5,7 @@ https://f-droid.org/en/packages/org.fossify.clock/
 https://f-droid.org/en/packages/org.fossify.filemanager/
 https://f-droid.org/en/packages/org.fossify.calendar/
 https://f-droid.org/en/packages/org.fossify.gallery/
-https://f-droid.org/en/packages/org.fossify.messages/
+https://f-droid.org/packages/dev.octoshrimpy.quik/
 https://f-droid.org/en/packages/org.fossify.notes/
 https://f-droid.org/en/packages/org.fossify.voicerecorder/
 https://f-droid.org/en/packages/org.fossify.contacts/
