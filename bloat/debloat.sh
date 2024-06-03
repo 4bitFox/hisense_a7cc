@@ -72,12 +72,12 @@ adb shell pm disable-user --user 0 org.ifaa.aidl.manager
 adb shell pm disable-user --user 0 com.android.browser
 adb shell pm disable-user --user 0 com.android.calendar
 adb shell pm disable-user --user 0 com.android.camera2
-adb shell pm disable-user --user 0 com.android.contacts
+adb shell pm disable-user --user 0 com.android.contacts # required for dialer to show up in launcher
 adb shell pm disable-user --user 0 com.android.cts.ctsshim
-adb shell pm disable-user --user 0 com.android.deskclock
-adb shell pm disable-user --user 0 com.android.dialer
+#adb shell pm disable-user --user 0 com.android.deskclock # Keep enabled for reliable alarm
+#adb shell pm disable-user --user 0 com.android.dialer # Keep enabled for calls on lock screen
 adb shell pm disable-user --user 0 com.android.exchange
-adb shell pm disable-user --user 0 com.android.gallery3d # Enable when you want to change lockscreen wallpaper
+adb shell pm disable-user --user 0 com.android.gallery3d # Re-Enable when you want to change lockscreen wallpaper
 adb shell pm disable-user --user 0 com.android.mms
 adb shell pm disable-user --user 0 com.android.musicfx
 adb shell pm disable-user --user 0 com.android.printservice.recommendation
@@ -165,9 +165,9 @@ adb install rebloat/org.fossify.clock_*.apk
 adb install rebloat/org.fossify.contacts_*.apk
 adb install rebloat/org.fossify.filemanager_*.apk
 adb install rebloat/org.fossify.gallery_*.apk
-adb install rebloat/org.fossify.messages_*.apk
+adb install rebloat/dev.octoshrimpy.quik_*.apk
 adb install rebloat/org.fossify.notes_*.apk
-adb install rebloat/org.fossify.phone_*.apk
+adb install rebloat/org.fossify.phone_*.apk # KEEP STOCK DIALER AS DEFAULT DIALER FOR WORKING LOKSCREEN CALLS!!!
 adb install rebloat/org.fossify.voicerecorder_*.apk
 adb install rebloat/org.mozilla.fennec_fdroid_*.apk
 adb install rebloat/Trebuchet*.apk
