@@ -270,7 +270,7 @@ You can now flash the signed image using fastboot.
 
 
 # GSI
-W̶I̶P̶ ̶t̶o̶g̶e̶t̶h̶e̶r̶ ̶w̶i̶t̶h̶ ̶@̶d̶e̶n̶z̶i̶l̶f̶e̶r̶r̶e̶i̶r̶a̶ ̶H̶u̶g̶e̶ ̶t̶h̶a̶n̶k̶s̶ ̶t̶o̶ ̶h̶i̶m̶ ̶:̶-̶)̶ (I gave up for now... I assume building a full rom is the better bet as nothing seems to work but i don't know tbh)
+W̶I̶P̶ ̶t̶o̶g̶e̶t̶h̶e̶r̶ ̶w̶i̶t̶h̶ ̶@̶d̶e̶n̶z̶i̶l̶f̶e̶r̶r̶e̶i̶r̶a̶ ̶H̶u̶g̶e̶ ̶t̶h̶a̶n̶k̶s̶ ̶t̶o̶ ̶h̶i̶m̶ ̶:̶-̶)̶ (I gave up for now... I assume building a full rom or device specific GSI build might be the better bet as nothing seems to work but i don't know tbh. I don't posess the knowledge to do this.)
 
 So far I have messed around with the LineageOS GSIs from [Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/). Sadly none of the ones I tried seem to work.
 
